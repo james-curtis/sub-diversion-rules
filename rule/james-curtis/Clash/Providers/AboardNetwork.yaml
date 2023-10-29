@@ -1,3 +1,5 @@
 payload:
+# Onedrive
   - DOMAIN-SUFFIX,sharepoint.com
+# Google Play pending
   - DOMAIN,services.googleapis.cn
