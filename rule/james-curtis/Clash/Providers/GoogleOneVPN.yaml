@@ -1,0 +1,6 @@
+payload:
+# https://www.v2ex.com/t/927701
+  - DOMAIN-KEYWORD,-pa.googleapis.com
+# https://www.techkoala.net/google_one_vpn/
+  - DOMAIN-SUFFIX,cloud.cupronickel.goog
+  - DOMAIN-SUFFIX,googleapis.com
