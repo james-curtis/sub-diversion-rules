@@ -4,4 +4,3 @@ payload:
 # https://www.techkoala.net/google_one_vpn/
   - DOMAIN-SUFFIX,cloud.cupronickel.goog
   - DOMAIN-SUFFIX,googleapis.com
-  - DOMAIN-SUFFIX,g-tun.com
