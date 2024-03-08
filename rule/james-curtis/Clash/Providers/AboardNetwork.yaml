@@ -4,3 +4,6 @@ payload:
 # Google Play pending, https://www.v2ex.com/t/696735?p=2
   - DOMAIN,services.googleapis.cn
   - DOMAIN-SUFFIX,capcut.com
+# dns detect
+  - DOMAIN-SUFFIX,ipleak.net
+  - DOMAIN-SUFFIX,browserleaks.com
