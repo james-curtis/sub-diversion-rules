@@ -7,3 +7,5 @@ payload:
 # dns detect
   - DOMAIN-SUFFIX,ipleak.net
   - DOMAIN-SUFFIX,browserleaks.com
+# google@cn
+  - DOMAIN-SUFFIX,gstatic.com
