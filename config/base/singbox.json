@@ -65,7 +65,18 @@
             "stack": "mixed"
         }
     ],
-    "outbounds": [],
+    "outbounds": [
+        {
+            "tag": "G1 ss",
+            "type": "shadowsocks",
+            "server": "149.104.24.100",
+            "server_port": 10001,
+            "method": "chacha20-ietf-poly1305",
+            "password": "aaf0cc77-ec05-4b5e-8fbb-8919c3aecf8c",
+            "multiplex": {"enabled": true}
+          }
+          
+    ],
     "route": {
         "rule_set": [
             {
