@@ -65,6 +65,7 @@
             "stack": "mixed"
         }
     ],
+    "outbounds": [],
     "route": {
         "rule_set": [
             {
