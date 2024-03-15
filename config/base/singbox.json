@@ -28,6 +28,14 @@
                     "any"
                 ],
                 "server": "dns_resolver"
+            },
+            {
+                "rule_set": [
+                    "geolocation-!cn",
+                    "gfw",
+                    "tld-!cn"
+                ],
+                "server": "dns_proxy"
             }
         ],
         "final": "dns_direct",
@@ -56,5 +64,35 @@
             "strict_route": true,
             "stack": "mixed"
         }
-    ]
+    ],
+    "route": {
+        "rule_set": [
+            {
+                "tag": "geolocation-!cn",
+                "format": "binary",
+                "type": "remote",
+                "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/geolocation-!cn.srs",
+                "download_detour": "DIRECT"
+            },
+            {
+                "tag": "gfw",
+                "format": "binary",
+                "type": "remote",
+                "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/gfw.srs",
+                "download_detour": "DIRECT"
+            },
+            {
+                "tag": "tld-!cn",
+                "format": "binary",
+                "type": "remote",
+                "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo/geosite/tld-!cn.srs",
+                "download_detour": "DIRECT"
+            }
+        ]
+    },
+    "experimental": {
+        "cache_file": {
+            "enabled": true
+        }
+    }
 }
