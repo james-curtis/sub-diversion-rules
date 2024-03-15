@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "services.googleapis.cn"
+      ],
+      "domain_suffix": [
+        ".sharepoint.com",
+        ".capcut.com",
+        ".ipleak.net",
+        ".browserleaks.com",
+        ".gstatic.com",
+        ".cdn.office.net"
+      ]
+    }
+  ]
+}
