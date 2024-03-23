@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_keyword": [
+        "-pa.googleapis.com"
+      ],
+      "domain_suffix": [
+        ".cloud.cupronickel.goog",
+        ".googleapis.com"
+      ]
+    }
+  ]
+}
