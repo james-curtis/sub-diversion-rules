@@ -6,11 +6,8 @@
         "services.googleapis.cn"
       ],
       "domain_suffix": [
-        ".browserscan.net",
         ".sharepoint.com",
         ".capcut.com",
-        ".ipleak.net",
-        ".browserleaks.com",
         ".gstatic.com",
         ".cdn.office.net"
       ]
